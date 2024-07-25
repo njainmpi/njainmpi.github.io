@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Welcome to personal website"
+title                    : "Welcome to my personal website"
 title_separator          : "-"
 name                     : &name "Naman Jain"
 description              : &description "personal description"
@@ -26,9 +26,9 @@ author:
   pronouns         : # example: "she/her"  
   bio              : "Short biography for the left-hand sidebar"
   location         : "Earth"
-  employer         : "Red Brick University"
+  employer         : "Max-Planck-Institute for Biological Cybernetics"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "naman.jain@tuebingen.mpg.de" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
