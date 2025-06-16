@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact | Naman Jain</title>
+  <link rel="stylesheet" href="assets/css/style.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<header>
+  <div class="nav-container">
+    <button id="theme-toggle">Toggle Theme</button>
+    <nav>
+      <ul class="nav-list">
+        <li><a href="index.html" class="">About Me</a></li>
+        <li><a href="work.html" class="">Work Experience</a></li>
+        <li><a href="academia.html" class="">Academia</a></li>
+        <li><a href="awards.html" class="">Awards</a></li>
+        <li><a href="publications.html" class="">Publications</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+      <button id="menu-toggle" class="hamburger">☰</button>
+    </nav>
+  </div>
+</header>
+<main class="container my-4">
+    <h2>Contact Me</h2>
+    <div class="contact-container">
+      <div class="contact-form">
+        <form action="mailto:namanjain630@gmail.com" method="post" enctype="text/plain">
+          <label>Name:<input type="text" name="Name" required></label>
+          <label>Email:<input type="email" name="Email" required></label>
+          <label>Message:<textarea name="Message" rows="4" required></textarea></label>
+          <button type="submit">Send</button>
+        </form>
+      </div>
+      <div class="calendly-embed">
+        <h2>Book a Meeting</h2>
+        <iframe src="https://calendly.com/namanjain630?embed=1" width="100%" height="600"></iframe>
+      </div>
+    </div>
+  </main>
+<script src="assets/js/script.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
