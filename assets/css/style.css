@@ -658,3 +658,39 @@ main.container {
   object-fit: contain;
   margin-right: 10px;
 }
+
+
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  header, nav, .card, .content, footer {
+    width: 100% !important;
+    box-sizing: border-box;
+    padding: 10px;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0;
+  }
+
+  .card {
+    flex-direction: column;
+    max-width: 100% !important;
+    margin: 10px auto;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  h3 {
+    font-size: 1.2em;
+  }
+}
