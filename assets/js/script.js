@@ -1,1 +1,1 @@
-console.log('Futuristic site loaded');
+console.log('Portfolio loaded');

@@ -1,1 +1,10 @@
-body {background: linear-gradient(45deg, #00b3b3, #ffb347, #6b4eff); color: white;}
+
+body {font-family: Arial; background: linear-gradient(-45deg,#0d1117,#111a2e,#1a263a,#222f4a);
+background-size:400% 400%;animation:gradientShift 20s ease infinite;color:white;margin:0;}
+@keyframes gradientShift{0%{background-position:0% 50%;}50%{background-position:100% 50%;}100%{background-position:0% 50%;}}
+.navbar{display:flex;justify-content:space-between;align-items:center;padding:1rem 3rem;background:rgba(0,0,0,0.3);}
+.navbar a{color:white;text-decoration:none;margin:0 1rem;}
+.hero{height:90vh;display:flex;align-items:center;justify-content:center;text-align:center;}
+.glass{backdrop-filter:blur(10px);background:rgba(255,255,255,0.1);border-radius:16px;padding:2rem;margin:1rem;box-shadow:0 0 20px rgba(0,179,179,0.3);}
+.grid{display:grid;gap:2rem;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));padding:2rem;}
+.btn{display:inline-block;background:#00b3b3;color:#fff;padding:0.7rem 1.2rem;border-radius:8px;text-decoration:none;}
