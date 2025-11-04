@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ---- Global Styles ---- */
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  color: white;
+}
+
+/* Animate the gradient background (smooth, subtle motion) */
+body {
+  background: linear-gradient(-45deg, #0ea5e9, #22d3ee, #0284c7, #38bdf8);
+  background-size: 200% 200%;
+  animation: gradientMove 15s ease infinite;
+}
+
+@keyframes gradientMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Link + Hover effects */
+a {
+  transition: 0.3s;
+}
+a:hover {
+  opacity: 0.8;
+}
