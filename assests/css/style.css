@@ -1,0 +1,42 @@
+:root {
+  --bg: rgba(255,255,255,0.75);
+  --fg: #0f172a;
+  --accent: #2563eb;
+  --blur: blur(20px);
+}
+
+[data-theme="dark"] {
+  --bg: rgba(15,23,42,0.8);
+  --fg: #e5e7eb;
+  --accent: #38bdf8;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, sans-serif;
+  background: linear-gradient(135deg,#0ea5e9,#6366f1);
+  color: var(--fg);
+}
+
+main {
+  max-width: 900px;
+  margin: 4rem auto;
+  padding: 2.5rem;
+  background: var(--bg);
+  backdrop-filter: var(--blur);
+  border-radius: 20px;
+  box-shadow: 0 30px 80px rgba(0,0,0,0.2);
+}
+
+a {
+  color: var(--accent);
+  font-weight: 500;
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
