@@ -1,0 +1,16 @@
+title: "Dr. Naman Jain"
+description: "Postdoctoral Fellow | Neuroimaging | CBV-fMRI"
+url: "https://<your-username>.github.io"
+
+markdown: kramdown
+theme: null
+
+collections:
+  projects:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: page
